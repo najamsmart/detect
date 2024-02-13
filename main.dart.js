@@ -45273,7 +45273,7 @@ return"jpeg"},
 qB(){var s=0,r=A.R(t.z),q=1,p,o=this,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0
 var $async$qB=A.N(function(b1,b2){if(b1===1){p=b2
 s=q}while(true)switch(s){case 0:q=3
-n=A.aw3("POST",A.fj("http://34.141.141.35:5000/upload",0,null))
+n=A.aw3("POST",A.fj("http://34.106.135.203:5000/upload",0,null))
 g=o.f
 n.x.n(0,"product_name",g.a.a)
 f=o.r
@@ -45387,7 +45387,7 @@ aj(){return new A.RY(A.a([],t.m0),B.k)}}
 A.RY.prototype={
 tf(){var s=0,r=A.R(t.H),q=1,p,o=this,n,m,l,k,j,i,h
 var $async$tf=A.N(function(a,b){if(a===1){p=b
-s=q}while(true)switch(s){case 0:i=A.fj("http://34.141.141.35:5000/get_not_found_products",0,null)
+s=q}while(true)switch(s){case 0:i=A.fj("http://34.106.135.203:5000/get_not_found_products",0,null)
 q=3
 s=6
 return A.M(A.aOG(i),$async$tf)
@@ -45422,7 +45422,7 @@ return A.Q($async$E2,r)},
 vL(a){return this.a2h(a)},
 a2h(a){var s=0,r=A.R(t.H),q=this,p,o,n
 var $async$vL=A.N(function(b,c){if(b===1)return A.O(c,r)
-while(true)switch(s){case 0:p=A.fj("http://34.141.141.35:5000/delete_not_found_product",0,null)
+while(true)switch(s){case 0:p=A.fj("http://34.106.135.203:5000/delete_not_found_product",0,null)
 o=t.N
 n=A.aD(["Content-Type","application/x-www-form-urlencoded"],o,o)
 s=2
@@ -45534,7 +45534,7 @@ var $async$om=A.N(function(a1,a2){if(a1===1){p=a2
 s=q}while(true)switch(s){case 0:s=o.e!=null?2:3
 break
 case 2:q=5
-n=A.aw3("POST",A.fj("http://34.141.141.35:5000/process_image",0,null))
+n=A.aw3("POST",A.fj("http://34.106.135.203:5000/process_image",0,null))
 c=n.y
 b=o.e
 b.toString
